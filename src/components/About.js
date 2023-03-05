@@ -1,5 +1,4 @@
 import React from 'react';
-import { useCountUp } from 'react-countup';
 import CountUp from 'react-countup';
 import { useInView } from 'react-intersection-observer';
 import { motion } from 'framer-motion';
