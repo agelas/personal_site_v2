@@ -20,7 +20,7 @@ module.exports = {
     extend: {
       colors: {
         primary: '#0a0a0a',
-        accent: '#B809C3',
+        accent: '#e4ad5f',
       },
       backgroundImage: {
         site: "url('./assets/Meteor.svg')",
