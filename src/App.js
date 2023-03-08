@@ -6,7 +6,6 @@ import Nav from './components/Nav';
 import About from './components/About';
 import Services from './components/Services';
 import Work from './components/Work';
-import Contact from './components/Contact';
 
 const App = () => {
   return (
