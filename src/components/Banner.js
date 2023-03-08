@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import Image from "../assets/avatar.svg";
 import { FaGithub, FaLinkedin, FaDribbble } from "react-icons/fa";
@@ -17,9 +18,9 @@ const Banner = () => {
               initial="hidden" 
               whileInView={"show"} 
               viewport={{once: false, amount: 0.7}} 
-              className="text-[55px] font-bold leading-[0.8] lg:text-[110px]"
+              className="text-[55px] font-bold leading-[0.8] lg:text-[95px]"
             >
-              Ben <span>Ayden</span>
+              Mathias <span>Insley</span>
             </motion.h1>
             <motion.div 
               variants={fadeIn("up", 0.4)} 
