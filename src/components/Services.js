@@ -5,25 +5,17 @@ import { fadeIn } from '../variants';
 
 const services = [
   {
-    name: "UI/UX design",
-    description: "Lorem, ipsum sit amet consecetutur adisicing elit. Maiores, uia quo expedita  accusamus illum ducimus tempore repellat distinctio harum aperiam.",
-    link: "Learn More",
+    name: "Software Engineer",
+    description: "Currently at DNA Script writing embedded software and developing the UI for the world's first commercially available benchtop DNA printer.",
   },
   {
-    name: "Development",
-    description: "Lorem, ipsum sit amet consecetutur adisicing elit. Maiores, uia quo expedita  accusamus illum ducimus tempore repellat distinctio harum aperiam.",
-    link: "Learn More",
+    name: "Project Lead",
+    description: "Lead a team of over 40 fullstack developers, ML engineers, and software engineers at the Delineo Disease Modeling project at the Johns Hopkins University.",
   },
   {
-    name: "Digital Marketing",
-    description: "Lorem, ipsum sit amet consecetutur adisicing elit. Maiores, uia quo expedita  accusamus illum ducimus tempore repellat distinctio harum aperiam.",
-    link: "Learn More",
+    name: "Software Product Owner Intern",
+    description: "Improved process flows. Brought value and accelerated sprint velocities as a part of Exact Science's information technology team.",
   },
-  {
-    name: "Product Branding",
-    description: "Lorem, ipsum sit amet consecetutur adisicing elit. Maiores, uia quo expedita  accusamus illum ducimus tempore repellat distinctio harum aperiam.",
-    link: "Learn More",
-  }
 ];
 
 const Services = () => {
@@ -57,7 +49,7 @@ const Services = () => {
             <div>
               {services.map((service, index) => {
                 // destructure service
-                const {name, description, link} = service;
+                const {name, description} = service;
                 return (
                   <div className="border-b border-white/20 h-[146px] mb-[38px] flex" key={index}>
                     <div className="max-w-[476px]">
