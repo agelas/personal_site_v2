@@ -1,6 +1,5 @@
 import React from "react";
 import Logo from '../assets/logo.svg'
-import Name from '../assets/name.svg'
 
 const Header = () => {
   return (
