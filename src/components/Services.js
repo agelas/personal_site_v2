@@ -1,5 +1,4 @@
 import React from 'react';
-import { BsArrowUpRight } from "react-icons/bs"
 import { motion } from 'framer-motion';
 import { fadeIn } from '../variants';
 
@@ -9,12 +8,12 @@ const services = [
     description: "Currently at DNA Script writing embedded software and developing the UI for the world's first commercially available benchtop DNA printer.",
   },
   {
-    name: "Project Lead",
-    description: "Lead a team of over 40 fullstack developers, ML engineers, and software engineers at the Delineo Disease Modeling project at the Johns Hopkins University.",
+    name: "Software Development Project Manager",
+    description: "Lead a team of over 45 student developers at the Delineo Disease Modeling project at the Johns Hopkins University.",
   },
   {
     name: "Software Product Owner Intern",
-    description: "Improved process flows. Brought value and accelerated sprint velocities as a part of Exact Science's information technology team.",
+    description: "Defined data transformations and schema definitions as part of Exact Sciences' transition to the Mulesoft Anypoint.",
   },
 ];
 
@@ -33,7 +32,7 @@ const Services = () => {
           > 
             <h2 className="h2 text-accent mb-6">What I Do.</h2>
             <h3 className="h3 max-w-[455px] mb-16">
-              I'm a Freelance Front-end Developer with over 5 years of experience.
+              I'm a software engineer who excels at embedded and fullstack development. 
             </h3>
             <button className="btn btn-sm">See my work</button>
           </motion.div>
@@ -51,13 +50,10 @@ const Services = () => {
                 // destructure service
                 const {name, description} = service;
                 return (
-                  <div className="border-b border-white/20 h-[146px] mb-[38px] flex" key={index}>
+                  <div className="border-b border-white/20 h-[166px] mb-[38px] flex" key={index}>
                     <div className="max-w-[476px]">
                       <h4 className="text-[20px] tracking-wider font-primary font-semibold mb-6">{name}</h4>
                       <p className="font-secondary leading-tight">{description}</p>
-                    </div>
-                    <div className="flex flex-col flex-1 items-end">
-                      <BsArrowUpRight /> {/* This won't be necessary since this is 'experience' for me */ }
                     </div>
                   </div>
                 );
