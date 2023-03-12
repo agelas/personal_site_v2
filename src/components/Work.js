@@ -28,7 +28,9 @@ const Work = () => {
                 Repellat, hic! Harum uis, cum velit neque esse eos molestias
                 doloremque explicabo!
               </p>
-              <button className="btn btn-sm">View all projects</button>
+              <a href="https://github.com/agelas" target="_blank" rel="noreferrer">
+                <button className="btn btn-sm">View all projects</button>
+              </a>
             </div>
             {/* image */}
             <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl">
