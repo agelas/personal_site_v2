@@ -53,7 +53,7 @@ const Banner = () => {
               viewport={{once: false, amount: 0.7}}
               className="mb-8 max-w-lg mx-auto lg:mx-0"
             >
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, numuam. Harum deleniti id sapiente. 
+              Welcome to my website!  
             </motion.p>
             <motion.div 
               variants={fadeIn("up", 0.6)} 
@@ -73,10 +73,10 @@ const Banner = () => {
               viewport={{once: false, amount: 0.7}}
               className="flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0"
             >
-              <a href="#">
+              <a href="https://github.com/agelas" target="_blank" rel="noreferrer">
                 <FaGithub />
               </a>
-              <a href="#">
+              <a href="https://www.linkedin.com/in/mathias-insley/" target="_blank" rel="noreferrer">
                 <FaLinkedin />
               </a>
               <a href="#">
