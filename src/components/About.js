@@ -30,10 +30,9 @@ const About = () => {
             className="flex-1"
           > 
             <h2 className="h2 text-accent">About me.</h2>
-            <h3 className="h3 mb-4">I'm a Freelance Front-end Developer with over 5 years of experience.</h3>
+            <h3 className="h3 mb-4">I'm a Software Engineer, frequent traveller, & coffee enthusiast.</h3>
             <p className="mb-6">
-              Lorem ipsum dolor sit, ammet consectetur adipisicing elit. Dolor natus omnis inventors quas beatae illo
-              nulla. Officiis magni omnis molestias. 
+              After 4 years on the East Coast studying materials engineering and computer science, I'm back home in the SF/Bay Area as a software engineer in biotech. 
             </p>
             {/* stats */}
             <div className="flex gap-x-6 lg:gap-x-10 mb-12">
