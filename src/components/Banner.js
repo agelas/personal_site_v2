@@ -79,9 +79,6 @@ const Banner = () => {
               <a href="https://www.linkedin.com/in/mathias-insley/" target="_blank" rel="noreferrer">
                 <FaLinkedin />
               </a>
-              <a href="#">
-                <FaDribbble />
-              </a>
             </motion.div>
           </div>
           {/* Image */}
