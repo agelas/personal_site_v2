@@ -17,7 +17,7 @@ const services = [
   },
 ];
 
-const Services = () => {
+const Experience = () => {
   return (
     <section className="section" id="services">
       <div className="container mx-auto">
@@ -66,4 +66,4 @@ const Services = () => {
   );
 };
 
-export default Services;
+export default Experience;

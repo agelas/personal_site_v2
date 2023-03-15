@@ -4,8 +4,8 @@ import Banner from './components/Banner';
 import Header from './components/Header';
 import Nav from './components/Nav';
 import About from './components/About';
-import Services from './components/Experiences';
-import Work from './components/Projects';
+import Experience from './components/Experiences';
+import Projects from './components/Projects';
 
 const App = () => {
   return (
@@ -14,8 +14,8 @@ const App = () => {
       <Banner />
       <Nav />
       <About />
-      <Services />
-      <Work />
+      <Experience />
+      <Projects />
     </div>
   );
 };

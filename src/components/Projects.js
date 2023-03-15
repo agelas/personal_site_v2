@@ -5,7 +5,7 @@ import Img1 from "../assets/portfolio-img1.png";
 import Img2 from "../assets/portfolio-img2.png";
 import Img3 from "../assets/portfolio-img3.png";
 
-const Work = () => {
+const Projects = () => {
   return (
     <section className="section" id="work">
       <div className="container mx-auto">
@@ -114,4 +114,4 @@ const Work = () => {
   );
 };
 
-export default Work;
+export default Projects;
