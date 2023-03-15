@@ -10,7 +10,7 @@ const Work = () => {
     <section className="section" id="work">
       <div className="container mx-auto">
         <div className="flex flex-col lg:flex-row gap-x-10">
-          <motion.div 
+          <motion.div
             variants={fadeIn("right", 0.5)}
             initial="hidden"
             whileInView={"show"}
@@ -24,11 +24,16 @@ const Work = () => {
                 Work.
               </h2>
               <p className="max-w-sm mb-16">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit
-                Repellat, hic! Harum uis, cum velit neque esse eos molestias
-                doloremque explicabo!
+                Most of my day-to-day work is spent writing C++ or Typescript,
+                with a smidge of Python here and there. I like playing around
+                with whatever the newest Javascript framework might be, and I'm
+                learning to like Rust as well.
               </p>
-              <a href="https://github.com/agelas" target="_blank" rel="noreferrer">
+              <a
+                href="https://github.com/agelas"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <button className="btn btn-sm">View all projects</button>
               </a>
             </div>
@@ -54,7 +59,7 @@ const Work = () => {
               </div>
             </div>
           </motion.div>
-          <motion.div 
+          <motion.div
             variants={fadeIn("left", 0.5)}
             initial="hidden"
             whileInView={"show"}
@@ -86,19 +91,20 @@ const Work = () => {
               {/* overlay */}
               <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
               {/* img */}
-              <img className="group-hover:scale-125 transitional-all duration-500" 
-                src={Img3} 
-                alt="" 
+              <img
+                className="group-hover:scale-125 transitional-all duration-500"
+                src={Img3}
+                alt=""
               />
               {/* pre-title */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-                <span className="text-gradient">
-                  UI/UX Design
-                </span>
+                <span className="text-gradient">UI/UX Design</span>
               </div>
               {/* title */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-500 z-50">
-                <span className="text-3x1 font-semibold text-white">Project Title</span>
+                <span className="text-3x1 font-semibold text-white">
+                  Project Title
+                </span>
               </div>
             </div>
           </motion.div>
