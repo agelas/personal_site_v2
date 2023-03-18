@@ -24,10 +24,9 @@ const Projects = () => {
                 Work.
               </h2>
               <p className="max-w-sm mb-16">
-                Most of my day-to-day work is spent writing C++ or Typescript,
-                with a smidge of Python here and there. I like playing around
-                with whatever the newest Javascript framework might be, and I'm
-                learning to like Rust as well.
+                Most of my day-to-day work is spent writing C++, Typescript, and
+                Python. In my free time, I like playing around with whatever the newest
+                Javascript framework is, and I'm learning to like Rust 🦀.
               </p>
               <a
                 href="https://github.com/agelas"
