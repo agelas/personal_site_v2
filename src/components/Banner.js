@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
-import Image from "../assets/avatar.svg";
+import Image from "../assets/Headshot.jpg";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
@@ -86,9 +86,9 @@ const Banner = () => {
             variants={fadeIn("down", 0.5)} 
             initial="hidden" 
             whileInView={"show"} 
-            className="hidden lg:flex flex-1 max-w-[320px] lg:max-w-[482px]"
+            className="hidden lg:flex flex-1 max-w-[320px] lg:max-w-[482px] mix-blend-lighten"
           >
-            <img src={Image} alt="" />
+            <img src={Image} alt="Headshot" className="rounded object-cover" />
           </motion.div>
         </div>
       </div>
