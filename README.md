@@ -7,7 +7,7 @@
 
 ## Info
 Repository for personal website. This one is built with tailwind and framer, as opposed to my old site, 
-which frankly became more complicated than necessary by incorporating a whole component library intended
+which frankly became more complicated than necessary by relying on a component library intended
 for web apps.
 
 ## Available Scripts
@@ -21,4 +21,7 @@ In the project directory, you can run:
 ### `npm run build`
 
 ### `npm run eject`
+
+### Creds for Inspiration
+https://github.com/cristianmihai01/portfolio-starter
 
