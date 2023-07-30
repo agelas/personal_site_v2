@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
 import Img1 from "../assets/frenchify.png";
-import Img2 from "../assets/portfolio-img2.png";
+import Img2 from "../assets/burn.png";
 import Img3 from "../assets/portfolio-img3.png";
 
 const Projects = () => {
@@ -74,16 +74,16 @@ const Projects = () => {
               <img
                 className="group-hover:scale-125 transitional-all duration-500"
                 src={Img2}
-                alt=""
+                alt="An animated character holding a torch. Next to it, the text burn, captioned with Burn Unstoppable Rusty Neurons"
               />
               {/* pre-title */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-                <span className="text-gradient">UI/UX Design</span>
+                <span className="text-gradient">Burn</span>
               </div>
               {/* title */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-500 z-50">
                 <span className="text-3x1 font-semibold text-white">
-                  Project Title
+                  Deep Learning in Rust
                 </span>
               </div>
             </div>
