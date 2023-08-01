@@ -1,8 +1,8 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
-import Img1 from "../assets/frenchify.png";
-import Img2 from "../assets/burn.png";
+import Img1 from "../assets/frenchify.netlify.app_.png";
+import Img2 from "../assets/burn-rs.github.io_.png";
 import Img3 from "../assets/portfolio-img3.png";
 
 const Projects = () => {
@@ -20,8 +20,8 @@ const Projects = () => {
             {/* text */}
             <div>
               <h2 className="h2 leading-tight text-accent">
-                My Latest <br />
-                Work.
+                Projects and <br />
+                Open Source.
               </h2>
               <p className="max-w-sm mb-5">
                 Most of my day-to-day work is spent writing C++, Typescript, and
@@ -45,7 +45,7 @@ const Projects = () => {
                 className="group-hover:scale-125 transitional-all duration-500"
                 src={Img1}
                 alt="Website with AI generated Parisian landscape"
-                style={{objectFit: "contain"}}
+                // style={{objectFit: "contain"}}
               />
               {/* pre-title */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
@@ -64,7 +64,7 @@ const Projects = () => {
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.3 }}
-            className="flex-1 flex flex-col gap-y-10"
+            className="flex-1 flex flex-col gap-y-7"
           >
             {/* This is the column with two displays on the rhs */}
             <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl">
