@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
 import Img1 from "../assets/frenchify.netlify.app_.png";
 import Img2 from "../assets/burn-rs.github.io_.png";
-import Img3 from "../assets/portfolio-img3.png";
+import Img3 from "../assets/caNNineBackground.png";
 
 const Projects = () => {
   return (
@@ -25,8 +25,8 @@ const Projects = () => {
               </h2>
               <p className="max-w-sm mb-5">
                 Most of my day-to-day work is spent writing C++, Typescript, and
-                Python. In my free time, I like playing around with whatever the newest
-                Javascript framework is, and I'm learning to like Rust 🦀.
+                Python. In my free time, I like playing around with Rust 🦀 and
+                the newest AI/ML tools.
               </p>
               <a
                 href="https://github.com/agelas"
@@ -45,7 +45,7 @@ const Projects = () => {
                 className="group-hover:scale-125 transitional-all duration-500"
                 src={Img1}
                 alt="Website with AI generated Parisian landscape"
-                // style={{objectFit: "contain"}}
+              // style={{objectFit: "contain"}}
               />
               {/* pre-title */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
@@ -94,16 +94,16 @@ const Projects = () => {
               <img
                 className="group-hover:scale-125 transitional-all duration-500"
                 src={Img3}
-                alt=""
+                alt="A dog and its neural network"
               />
               {/* pre-title */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-                <span className="text-gradient">UI/UX Design</span>
+                <span className="text-gradient">caNNine</span>
               </div>
               {/* title */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-500 z-50">
                 <span className="text-3x1 font-semibold text-white">
-                  Project Title
+                  Dog classifier on the edge
                 </span>
               </div>
             </div>
