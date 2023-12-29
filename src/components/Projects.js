@@ -18,7 +18,7 @@ const Projects = () => {
             className="flex-1 flex flex-col gap-y-12 mb-10 lg:mb-0"
           >
             {/* text */}
-            <div>
+            <div className="mb-8">
               <h2 className="h2 leading-tight text-accent">
                 Projects and <br />
                 Open Source.
@@ -49,7 +49,13 @@ const Projects = () => {
               />
               {/* pre-title */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-                <span className="text-gradient">Frenchify</span>
+                <a
+                  href="https://frenchify.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span className="text-gradient">Frenchify</span>
+                </a>
               </div>
               {/* title */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-500 z-50">
@@ -78,7 +84,13 @@ const Projects = () => {
               />
               {/* pre-title */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-                <span className="text-gradient">Burn</span>
+                <a
+                  href="https://burn.dev/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span className="text-gradient">Burn</span>
+                </a>
               </div>
               {/* title */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-500 z-50">
@@ -98,7 +110,13 @@ const Projects = () => {
               />
               {/* pre-title */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-                <span className="text-gradient">caNNine</span>
+                <a
+                  href="https://github.com/agelas/caNNine"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span className="text-gradient">caNNine</span>
+                </a>
               </div>
               {/* title */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-500 z-50">
