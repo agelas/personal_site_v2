@@ -6,9 +6,7 @@
 </div>
 
 ## Info
-Repository for personal website. This one is built with tailwind and framer, as opposed to my old site, 
-which frankly became more complicated than necessary by relying on a component library intended
-for web apps.
+Repository for personal website.
 
 ## Available Scripts
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
